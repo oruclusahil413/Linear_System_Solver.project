@@ -1,4 +1,6 @@
+import numpy as np
 
+import pandas as pd
 def swap_rows(M, row_index_1, row_index_2):
     # M is our matrix ,row index 1 is first row of our matrix that needs to be swapped
 
