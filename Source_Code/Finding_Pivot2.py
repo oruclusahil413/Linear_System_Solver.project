@@ -4,7 +4,7 @@ def get_index_first_non_zero_value_from_row(M, row, augmented=False):
     # Parameters the input matrix to search for non-zero values
     # the index of the row to search.
     # the augmented (Pass this True if you are dealing with an augmented matrix)
-
+    """In augmented version we split"""
     # Create a copy to avoid modifying the original matrix
     M = M.copy()
     if augmented == True:
